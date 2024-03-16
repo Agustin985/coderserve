@@ -47,4 +47,5 @@ gestorDeProductos.create({
     stock : 100
 }) 
 
+
 console.log(gestorDeProductos.read())
