@@ -24,5 +24,27 @@ gestorDeProductos.create({
     category : "calzado",
     price : 90000,
     stock : 100
-}) //crear 4 productos mas
+}) 
+gestorDeProductos.create({
+    title : "celular",
+    photo: "celular.jpg",
+    category : "smartphone",
+    price : 900000,
+    stock : 1000
+}) 
+gestorDeProductos.create({
+    title : "sillon",
+    photo: "sillon.jpg",
+    category : "mueble",
+    price : 100000,
+    stock : 10
+}) 
+gestorDeProductos.create({
+    title : "botines",
+    photo: "botines.jpg",
+    category : "calzado",
+    price : 10000,
+    stock : 100
+}) 
+
 console.log(gestorDeProductos.read())
